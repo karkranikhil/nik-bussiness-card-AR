@@ -6,5 +6,5 @@ https://medium.com/arjs/how-to-create-your-own-marker-44becbec1105
 #### Official docs
 https://aframe.io/
 
-#### My demo Final result
+#### Final result
 <img src="./Screen%20Shot%202018-07-01%20at%203.22.39%20PM.png"/>
