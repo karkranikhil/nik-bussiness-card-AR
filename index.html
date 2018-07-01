@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/94/three.min.js"></script>    
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+    <a-scene embedded arjs="trackingMethod: best;">
+         <a-anchor hit-testing-enabled='true'>
+                 <a-plane 
+                 src="http://hdwpro.com/wp-content/uploads/2016/06/HD-Free-Background.pngs"
+                 height="1.5"
+                 width="3"
+                 color="grey" 
+                 position="1 2 1"
+              ></a-plane>
+              <a-text value="\n\nNikhil Karkra -Frontend Developer\n\nnixalar.com\n\n@karkra_nikhil\n\n0468305744\n\nkarkra.nikhil@gmail.com" position="-0.3 2.1 1" height="3" width="3" color="white"></a-text>
+              <a-image src="https://avatars0.githubusercontent.com/u/16545167?s=460&v=4" width="1" height="1" position="1.9 1.8 1"></a-image>
+        </a-anchor>
+        <a-camera-static/>
+    </a-scene>
+</html>
